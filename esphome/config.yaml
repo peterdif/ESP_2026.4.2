@@ -1,6 +1,6 @@
 name: "ESPHome 2026.4.2"
 version: "2026.4.2"
-slug: "esphome_2026_4_2"
+slug: "esphome"
 description: "ESPHome 2026.4.2 verzió rögzítve"
 url: "https://github.com/esphome/esphome"
 startup: application
