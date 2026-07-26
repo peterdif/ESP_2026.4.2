@@ -1,7 +1,7 @@
 name: "ESPHome 2026.4.2"
 version: "2026.4.2"
 slug: "esphome"
-description: "ESPHome 2026.4.2 verzió rögzítve"
+description: "Egyedi ESPHome 2026.4.2 verzió"
 url: "https://github.com/esphome/esphome"
 startup: application
 boot: auto
@@ -10,7 +10,7 @@ arch:
   - amd64
   - armhf
   - armv7
-image: "ghcr.io/esphome/esphome-{arch}:2026.4.2"
+image: "ghcr.io/esphome/esphome-{arch}"
 webui: "http://[HOST]:[PORT:6052]/"
 ports:
   6052/tcp: 6052
