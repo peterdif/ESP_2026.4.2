@@ -1,0 +1,18 @@
+name: "ESPHome 2026.4.2"
+version: "2026.4.2"
+slug: "esphome_2026_4_2"
+description: "ESPHome 2026.4.2 verzió rögzítve"
+url: "https://github.com/esphome/esphome"
+startup: application
+boot: auto
+arch:
+  - aarch64
+  - amd64
+  - armhf
+  - armv7
+image: "ghcr.io/esphome/esphome-{arch}:2026.4.2"
+webui: "http://[HOST]:[PORT:6052]/"
+ports:
+  6052/tcp: 6052
+options: {}
+schema: {}
